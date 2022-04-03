@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name</label> <br>
+        <input name="name" id="name" type="text"> <br>
+
+        <label for="email">Email</label> <br>
+        <input name="email" id="email" type="email"> <br>
+
+        <label for="password">Şifre</label> <br>
+        <input type="password" name="password" id="password"> <br>
+
+        <label for="date">Tarih</label> <br>
+        <input type="date" name="date" id="date"> <br>
+
+        <label>Cinsiyet</label> <br>
+        <input type="radio" name="gender" value="Erkek" checked>Erkek <br>
+        <input type="radio" name="gender" value="Kadın">Kadın <br>
+
+        <label>Hobiler</label><br>
+        <input type="checkbox" name="tech" id="tech">Teknoloji<br>
+        <input type="checkbox" name="music" id="music">Müzik<br>
+        <input type="checkbox" name="art" id="art">Sanat<br>
+
+        <label>Öğrenim Durumu</label> <br>
+        <select name="degree" id="degree">
+            <option value="onlisans">Ön Lisans</option>
+            <option value="lisans">Lisans</option>
+        </select> <br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="mesajınız"></textarea> <br>
+
+        <input type="reset">
+        <input type="submit" value="Submit" name="" id="">
+    </form>
+</body>
+</html>
